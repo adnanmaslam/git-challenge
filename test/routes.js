@@ -3,7 +3,6 @@ process.env.NODE_ENV = 'test'
 var tape = require('tape')
 var split = require('split2')
 var servertest = require('servertest')
-
 var server = require('../lib/server')
 var Things = require('../lib/models/things')
 
